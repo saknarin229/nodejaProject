@@ -1,1 +1,211 @@
-xxxxxxxxxxxxxxxxxxxxxxx
+<section class="col">
+    <div class="container text-center mt-5">
+        <div class="col">
+            <strong class="font-s-1"> รับทำเว็บไซต์ สร้างโอกาส ขายดีเกินคาด </strong> <br>
+            <strong class="font-s-2">เว็บไซต์แนวใหม่ สวย ใช้ง่าย แสดงผลได้ดีในหน้าจอคอมพิวเตอร์ แท็บเล็ตและมือถือ</strong>
+        </div>
+    </div>
+</section>
+
+<section class="col bg-image position-relative mt-5">
+    <div class="row justify-content-center">
+
+        <div class="col-8 position-absolute b2-top">
+            <h1><strong class="font-s-3">สร้างเว็บไซต์</strong> <br> <strong class="font-s-5"> สร้างโอกาส สร้างยอดขายใหม่ๆ ให้ดีเกินคาด </strong></h1>
+            <ul>
+                <li class="font-s-4">ไม่มีหน้าร้านก็สามารถขายสินค้าได้</li>
+                <li class="font-s-4">ไม่ต้องมีพนักงานขาย</li>
+                <li class="font-s-4">ลงทุนน้อยไม่ต้องเช่าพื้นที่</li>
+            </ul>
+
+            <button class="btn btn-lg  btn-success"><i class="fa-solid fa-circle-user"></i> สอบถามเพิ่มเติม</button>
+        </div>
+    </div>
+
+</section>
+
+<section class="col p-5" style="background-color: #E5E5E5;">
+    <div class="container text-center">
+        <h1><strong>ตัวอย่างผลงาน</strong></h1>
+        <div class="row justify-content-center">
+            <% for(let i = 0; i < 12; i++){%>
+                <div class="card p-0 m-3 shadow-sm" style="width: 18rem;">
+                    <img src="https://sites.google.com/site/kawalin581031003/_/rsrc/1459831636250/u6/theme-24-full.jpg" class="card-img-top" alt="...">
+                </div>
+
+                <% }%>
+        </div>
+    </div>
+</section>
+
+<section class="col mt-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <% 
+                const Pagket = ['Sale Page Website', 'Corporate Website', 'Catalog Website', 'E-commerce Website']
+                const price = ['15,000', '22,000', '28,000', '36,000']
+            %>
+
+                <div class="card p-0 m-3" style="width: 18rem;">
+                    <div class="p-3" style="
+                                background-image: url(https://www.raingoosedesign.co.uk/wp-content/uploads/2019/05/backgroundpattern.png);
+                                background-position: bottom;
+                                height: 5rem; 
+                                width: 100%;
+                                color: aliceblue;">
+                        <h3>
+                            <%= Pagket[0]%>
+                        </h3>
+                    </div>
+                    <div class="card-body p-3">
+                        <p class="card-text font-s-2">
+                            <small><strong class="font-s-4">เริ่มต้นที่ </strong></small> <strong> ฿<%= price[0]%></strong>
+                        </p>
+                        <ul>
+                            <li class="pt-1"> ออกแบบเว็บไซต์จำนวน 1 หน้าหลัก</li>
+                            <li class="pt-1"> รองรับการแสดงผลทุกหน้าจอ</li>
+                            <li class="pt-1"> วางระบบใช้งานหลังบ้านเว็บไซต์</li>
+                            <li class="pt-1"> รูปลิขสิทธิ์ 3-5 รูป</li>
+                            <li class="pt-1"> วางโครงสร้างเว็บให้เหมอะสำหรับการทำ SEO</li>
+                            <li class="pt-1"> ปรับ Pagespeed หน้าเว็บไซต์</li>
+                            <li class="pt-1"> การแก้ไขงานได้ 2 ครั้ง (กรณีไม่ได้เกิดจากความผิดพาลของผู้จัดทำ)</li>
+                            <li class="pt-1"> ติดตั้ง Google Analytics</li>
+                            <li class="pt-1"> ติดตั้ง SSL Certificates มาตรฐานความปลอดภัยเว็บไซต์</li>
+                            <li class="pt-1"> ติดตั้งระบบ Gmail SMTP ระบบป้องกัน Mail เข้า Spam</li>
+                            <li class="pt-1"> ดูแลและให้คำปรึกษาในเรื่องระบบความปลอดภัยตลอดระยะเวลาการใช้งาน (กรณีที่ใช้ Hosting ที่ทางผู้จัดทำแนะนำ หากใช้งานบน Hosting อื่นดูแล 3 เดือนแรก)</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="card p-0 m-3" style="width: 18rem;">
+                    <div class="p-3" style="
+                                background-image: url(https://www.raingoosedesign.co.uk/wp-content/uploads/2019/05/backgroundpattern.png);
+                                background-position: bottom;
+                                height: 5rem; 
+                                width: 100%;
+                                color: aliceblue;">
+                        <h3>
+                            <%= Pagket[1]%>
+                        </h3>
+                    </div>
+                    <div class="card-body p-3">
+                        <p class="card-text font-s-2">
+                            <small><strong class="font-s-4">เริ่มต้นที่ </strong></small> <strong> ฿<%= price[1]%></strong>
+                        </p>
+                        <ul>
+                            <li class="pt-1"> ออกแบบเว็บไซต์จำนวน 3-5 หน้าหลัก</li>
+                            <li class="pt-1"> รองรับการแสดงผลทุกหน้าจอ</li>
+                            <li class="pt-1"> วางระบบใช้งานหลังบ้านเว็บไซต์</li>
+                            <li class="pt-1"> รูปลิขสิทธิ์ 5-10 รูป</li>
+                            <li class="pt-1"> วางโครงสร้างเว็บให้เหมอะสำหรับการทำ SEO</li>
+                            <li class="pt-1"> ปรับ Pagespeed หน้าเว็บไซต์</li>
+                            <li class="pt-1"> การแก้ไขงานได้ 2 ครั้ง (กรณีไม่ได้เกิดจากความผิดพาลของผู้จัดทำ)</li>
+                            <li class="pt-1"> ติดตั้ง Google Analytics</li>
+                            <li class="pt-1"> ติดตั้ง SSL Certificates มาตรฐานความปลอดภัยเว็บไซต์</li>
+                            <li class="pt-1"> ติดตั้งระบบ Gmail SMTP ระบบป้องกัน Mail เข้า Spam</li>
+                            <li class="pt-1"> ดูแลและให้คำปรึกษาในเรื่องระบบความปลอดภัยตลอดระยะเวลาการใช้งาน (กรณีที่ใช้ Hosting ที่ทางผู้จัดทำแนะนำ หากใช้งานบน Hosting อื่นดูแล 3 เดือนแรก)</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="card p-0 m-3" style="width: 18rem;">
+                    <div class="p-3" style="
+                                background-image: url(https://www.raingoosedesign.co.uk/wp-content/uploads/2019/05/backgroundpattern.png);
+                                background-position: bottom;
+                                height: 5rem; 
+                                width: 100%;
+                                color: aliceblue;">
+                        <h3>
+                            <%= Pagket[2]%>
+                        </h3>
+                    </div>
+                    <div class="card-body p-3">
+                        <p class="card-text font-s-2">
+                            <small><strong class="font-s-4">เริ่มต้นที่ </strong></small> <strong> ฿<%= price[2]%></strong>
+                        </p>
+                        <ul>
+                            <li class="pt-1"> ออกแบบเว็บไซต์จำนวน 4-8 หน้าหลัก</li>
+                            <li class="pt-1"> รองรับการแสดงผลทุกหน้าจอ</li>
+                            <li class="pt-1"> วางระบบใช้งานหลังบ้านเว็บไซต์</li>
+                            <li class="pt-1"> รูปลิขสิทธิ์ 5-10 รูป</li>
+                            <li class="pt-1"> วางโครงสร้างเว็บให้เหมอะสำหรับการทำ SEO</li>
+                            <li class="pt-1"> ปรับ Pagespeed หน้าเว็บไซต์</li>
+                            <li class="pt-1"> การแก้ไขงานได้ 2 ครั้ง (กรณีไม่ได้เกิดจากความผิดพาลของผู้จัดทำ)</li>
+                            <li class="pt-1"> ติดตั้ง Google Analytics</li>
+                            <li class="pt-1"> ติดตั้ง SSL Certificates มาตรฐานความปลอดภัยเว็บไซต์</li>
+                            <li class="pt-1"> ติดตั้งระบบ Gmail SMTP ระบบป้องกัน Mail เข้า Spam</li>
+                            <li class="pt-1"> ดูแลและให้คำปรึกษาในเรื่องระบบความปลอดภัยตลอดระยะเวลาการใช้งาน (กรณีที่ใช้ Hosting ที่ทางผู้จัดทำแนะนำ หากใช้งานบน Hosting อื่นดูแล 3 เดือนแรก)</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="card p-0 m-3" style="width: 18rem;">
+                    <div class="p-3" style="
+                                background-image: url(https://www.raingoosedesign.co.uk/wp-content/uploads/2019/05/backgroundpattern.png);
+                                background-position: bottom;
+                                height: 5rem; 
+                                width: 100%;
+                                color: aliceblue;">
+                        <h3>
+                            <%= Pagket[3]%>
+                        </h3>
+                    </div>
+                    <div class="card-body p-3">
+                        <p class="card-text font-s-2">
+                            <small><strong class="font-s-4">เริ่มต้นที่ </strong></small> <strong> ฿<%= price[3]%></strong>
+                        </p>
+                        <ul>
+                            <li class="pt-1"> ออกแบบเว็บไซต์จำนวน 4-8 หน้าหลัก</li>
+                            <li class="pt-1"> รองรับการแสดงผลทุกหน้าจอ</li>
+                            <li class="pt-1"> วางระบบใช้งานหลังบ้านเว็บไซต์</li>
+                            <li class="pt-1"> รูปลิขสิทธิ์ 5-10 รูป</li>
+                            <li class="pt-1"> วางโครงสร้างเว็บให้เหมอะสำหรับการทำ SEO</li>
+                            <li class="pt-1"> ปรับ Pagespeed หน้าเว็บไซต์</li>
+                            <li class="pt-1"> การแก้ไขงานได้ 2 ครั้ง (กรณีไม่ได้เกิดจากความผิดพาลของผู้จัดทำ)</li>
+                            <li class="pt-1"> ติดตั้ง Google Analytics</li>
+                            <li class="pt-1"> ติดตั้ง SSL Certificates มาตรฐานความปลอดภัยเว็บไซต์</li>
+                            <li class="pt-1"> ติดตั้งระบบ Gmail SMTP ระบบป้องกัน Mail เข้า Spam</li>
+                            <li class="pt-1"> ดูแลและให้คำปรึกษาในเรื่องระบบความปลอดภัยตลอดระยะเวลาการใช้งาน (กรณีที่ใช้ Hosting ที่ทางผู้จัดทำแนะนำ หากใช้งานบน Hosting อื่นดูแล 3 เดือนแรก)</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="col bg-warning shadow-sm">
+    <div class="container">
+        <div class="row pt-5 pb-5">
+            <div class="col">
+                <strong class="fs-4" style="letter-spacing:.1rem; color: #555555;"> ความสุขของเราคือได้ผลิตงานที่ ทำให้คุณพอใจและเห็นผลลัพธ์ ที่ต่อยอดความสำเร็จให้กับคุณ</strong>
+            </div>
+            <div class="col">
+                <strong class="fs-4" style="letter-spacing:.1rem; color: #555555;"> ทุกโจทย์คือกุญแจสำคัญในการไขความสำเร็จของธุรกิจคุณ เรายินดีที่จะสร้างกุญแจให้กับธุรกิจของคุณ</strong>
+            </div>
+            <div class="col">
+                <strong class="fs-4" style="letter-spacing:.1rem; color: #555555;"> บริการหลังการขายที่รวดเร็ว และยืดหยุ่น คือจุดแข็งของเรา</strong>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="col pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1>LOGO</h1>
+                <h1>เราพร้อมให้คำปรึกษาฟรี</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere labore laborum voluptates corporis consectetur molestiae! Harum nesciunt eum architecto soluta at repudiandae obcaecati rerum animi, iusto dolores, voluptatibus eius velit.</p>
+
+                <button type="button" class="btn btn-outline-warning w-25">สอบถามเพิ่มเติม คลิก</button>
+
+            </div>
+        </div>
+    </div>
+</section>

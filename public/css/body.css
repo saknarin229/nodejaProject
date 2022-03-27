@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300&display=swap');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+label,
+a,
+small,
+strong,
+p,
+span {
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+
+/* --------------------------- */
+
+.bg-image {
+    background-image: url('/images/HeaderImage.jpg');
+    background-size: cover;
+    height: 50rem;
+}
+
+.font-s-1 {
+    font-size: 3rem;
+}
+
+.font-s-2 {
+    font-size: 2rem;
+}
+
+.font-s-3 {
+    font-size: 5rem;
+}
+
+.font-s-4 {
+    font-size: 1.5rem;
+}
+
+.b2-top {
+    top: 20rem
+}
+
+@media only screen and (max-width: 768px) {
+    .bg-image {
+        height: 25rem;
+    }
+    .font-s-1 {
+        font-size: 1rem;
+    }
+    .font-s-2 {
+        font-size: 0.8rem;
+    }
+    .font-s-3 {
+        font-size: 1.5rem;
+    }
+    .font-s-4 {
+        font-size: 0.8rem;
+    }
+    .font-s-5 {
+        font-size: 1.3rem;
+    }
+    .b2-top {
+        top: 5rem;
+        left: 5rem;
+    }
+    .btn-lg {
+        height: 2.5rem;
+        width: 13rem;
+        font-size: 16px;
+    }
+}
