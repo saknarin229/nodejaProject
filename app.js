@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var layout = require('express-layout');
 
 var indexRouter = require('./routes/Home/index');
 var usersRouter = require('./routes/User/users');
@@ -12,8 +13,11 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+app.set('layout', './layouts/layout');
+
 
 app.use(logger('dev'));
+app.use(layout());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
